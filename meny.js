@@ -60,6 +60,11 @@ while( input !== 'q' ) {
 	else if( input === '9' ) {
 		figur9()
 	}
+	else {
+		console.log('Ogiltigt alternativ.Programmet avslutas.');
+		break; 
+	}
 }
 
+	
 close()
