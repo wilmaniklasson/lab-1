@@ -9,7 +9,7 @@ import { figur1,figur2, figur3, figur4, figur5, figur6, figur7, figur8, figur9 }
 
 let input = ''
 while( input !== 'q' ) {
-		console.log(' ');
+	console.log(' ');
 	console.log('Välkommen till Figurprogrammet!');
 	console.log(' ');
 	console.log('Detta program låter dig utforska olika mönsterfigurer.');
@@ -42,11 +42,11 @@ while( input !== 'q' ) {
 	else if( input === '3' ) {
 		figur3()
 	}
-	else if( input === '4' ) {
-		figur4()
+	else if( input === '4' ) {ß
+		figur4(f4)
 	}
 	else if( input === '5' ) {
-		figur5()
+		figur4(f5)
 	}
 	else if( input === '6' ) {
 		figur6()
@@ -62,7 +62,7 @@ while( input !== 'q' ) {
 	}
 	else {
 		console.log('Ogiltigt alternativ.Programmet avslutas.');
-		break; 
+		input = 'q'
 	}
 }
 

@@ -76,7 +76,7 @@ function figur3() {
     */
 }
 
-function figur4() {
+function figur4(callback) {
     console.log('Visar figur 4...');
     console.log();
 
@@ -84,7 +84,7 @@ function figur4() {
     for (let i = 1; i <= 6; i++) {
         let text = '';
         for (let j = 1; j <= 8; j++) {
-            if (j === 3 || i === 3) {
+            if (callback()) {
                 text += '# ';
             } else {
                 text += '. ';
@@ -100,6 +100,9 @@ function figur4() {
     . . # . . . . . 
     . . # . . . . . 
     */
+}
+function f4(i, j)  {
+    return j === 3 || i === 3
 }
 
 function figur5() {
