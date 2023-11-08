@@ -15,11 +15,11 @@ while( input !== 'q' ) {
 	console.log('Detta program låter dig utforska olika mönsterfigurer.');
 	console.log('Välj en figur genom att ange dess nummer');
 	console.log(' ');
-	console.log('1. Figur: Mönsterruta');
-	console.log('2. Figur: Pilar');
-	console.log('3. Figur: Rutnät');
-	console.log('4. Figur: Triangelmönster');
-	console.log('5. Figur: Diagonalstreck');
+	console.log('1. Figur: Horisontell linje');
+	console.log('2. Figur: Diagonal linje');
+	console.log('3. Figur: Mittsektion rutnät');
+	console.log('4. Figur: Diagonal korsning');
+	console.log('5. Figur: Korsande diagonaler');
 	console.log('6. Figur: Diagonala kryss');
 	console.log('7. Figur: Vågräta linjer');
 	console.log(' ');
@@ -44,7 +44,7 @@ while( input !== 'q' ) {
 		figur4()
 	}
 	else if( input === '5' ) {
-		figur4()
+		figur5()
 	}
 	else if( input === '6' ) {
 		figur6()

@@ -66,12 +66,11 @@ function figur4() {
             else {
                 text = text + "."
             }
-            
         }
         console.log(text)
     }
-    
 }
+
 // FIGUR 5
 function figur5(){
 for ( let i = 1;  i <= 6; i++) {
