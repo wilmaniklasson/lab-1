@@ -4,7 +4,7 @@ import { getQuestion } from './readline.js'
 
 const [question, close] = getQuestion()
 
-import { figur1,figur2, figur3, figur4, figur5, figur6, figur7, figur8, figur9 } from './figur.js';
+import { figur1,figur2, figur3, figur4, figur5, figur6, figur7} from './figur.js';
 
 
 let input = ''
@@ -22,8 +22,6 @@ while( input !== 'q' ) {
 	console.log('5. Figur: Diagonalstreck');
 	console.log('6. Figur: Diagonala kryss');
 	console.log('7. Figur: Vågräta linjer');
-	console.log('8. Figur: Lodräta linjer');
-	console.log('9. Figur: Kryssmönster');
 	console.log(' ');
 	console.log('Q. Avsluta');
 	console.log(' ');
@@ -42,23 +40,17 @@ while( input !== 'q' ) {
 	else if( input === '3' ) {
 		figur3()
 	}
-	else if( input === '4' ) {ß
-		figur4(f4)
+	else if( input === '4' ) {
+		figur4()
 	}
 	else if( input === '5' ) {
-		figur4(f5)
+		figur4()
 	}
 	else if( input === '6' ) {
 		figur6()
 	}
 	else if( input === '7' ) {
 		figur7()
-	}
-	else if( input === '8' ) {
-		figur8()
-	}
-	else if( input === '9' ) {
-		figur9()
 	}
 	else {
 		console.log('Ogiltigt alternativ.Programmet avslutas.');
